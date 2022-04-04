@@ -127,7 +127,7 @@ public class MalumLang extends LanguageProvider
         addHeadline("soulstone", "Soulstone");
         addPage("soulstone_a", "The soulstone is a strange ore found both on the surface and in the deepslate layer of your world. The ore itself is created when wicked spirit is infused into carbon based minerals such as coal or diamond.");
         addPage("soulstone_b", "Sadly this process takes an unbelievably long time, it's nearly impossible to replicate. At the end of it, a soul-reactive material was brought into this world. Due to it's origins, soulstone is a great catalyst for soul magics and other diabolical fields.");
-        addPage("soulstone_c", "To be more specific, wicked spirit found within the soulstone is so concentrated  that when brought close to an arcane presence it can be easily damaged. Furthermore, any piece of gear made from soulstone will be able to damage souls.");
+        addPage("soulstone_c", "To be more specific, the wicked spirit found within the soulstone is heavily concentrated. The potency is extremely harmful to the arcane presence of a soul, and to that end, a soul can be damaged and fractured by the presence of soulstone.");
 
         addDescription("runewood", "Arcane oak");
         addHeadline("runewood", "Runewood");
@@ -158,11 +158,11 @@ public class MalumLang extends LanguageProvider
 
         addDescription("spirit_infusion", "Creating Magical Wonders");
         addHeadline("spirit_infusion", "Spirit Infusion");
-        addPage("spirit_infusion_a", "Spirit infusion is a crafting process based around infusing spirit arcana into various items, twisting them to fit your evil desires. Every infusion recipe requires a prime item as well as spirits to infuse the item with. These must all be placed right on the altar.");
-        addPage("spirit_infusion_b", "Some recipes may also ask for additional reagents to be infused into the prime item. These extra items must be placed on nearby item holders, such as ones made from runewood. These can be placed anywhere as long as they're within 4 blocks of the altar.");
-        addPage("spirit_infusion_c", "Once everything is setup correctly, spirit infusion will begin and one by one each additional ingredient will be absorbed into the prime item alongside needed spirits. Once this lengthy process is done your desired item will be created.");
+        addPage("spirit_infusion_a", "Spirit infusion is a crafting process based around infusing Spirit Arcana into various items, twisting them to fit your evil desires. Every infusion recipe requires a prime item as well as spirits to infuse the item with. These must all be placed right on the altar.");
+        addPage("spirit_infusion_b", "Some recipes may also ask for additional reagents to be infused into the prime item. These extra items must be placed on nearby item holders, such as pedestals made from runewood. These can be placed anywhere as long as they're within four blocks of the altar.");
+        addPage("spirit_infusion_c", "Once everything is setup correctly, spirit infusion will begin. One by one, each additional ingredient will be absorbed into the prime item alongside needed spirits. Once this lengthy process is done, your desired item will be created.");
         addHeadline("hex_ash", "Hex Ash");
-        addPage("hex_ash", "Hex ash is a simple magical powder used in various infusions as a minor component. The ash can animate inanimate things, even bring them to life in some extreme cases.");
+        addPage("hex_ash", "Hex ash is a simple magical powder used in various infusions as a minor reagent. The ash can be used to animate the inanimate, and even bring them to life in some extreme cases.");
 
         addDescription("simple_spirits", "Primary Arcana");
         addHeadline("sacred_spirit", "Sacred Spirit");
@@ -171,7 +171,7 @@ public class MalumLang extends LanguageProvider
 
         addHeadline("wicked_spirit", "Wicked Spirit");
         addPage("wicked_spirit_a", "Opposite of the sacred, wicked spirit represents various impurities and dark magics. Even just touching this spirit creates a mild pain. Wicked magics can be really dangerous in the right hands.");
-        addPage("wicked_spirit_b", "Generally when a vessel rots, the soul peacefully fades out into the afterlife. However, if the body is to be reanimated back to life through necromancy fast enough the soul and vessel may be one once more. This takes quite a toll on the soul however, twisting it into a wicked shape.");
+        addPage("wicked_spirit_b", "Generally when a vessel rots, the soul peacefully fades out into the afterlife. However, if the body is to be reanimated back to life through necromancy fast enough, the soul and vessel may become whole once more. This takes quite a toll on the soul however, twisting it into a wicked shape.");
 
         addHeadline("arcane_spirit", "Arcane Spirit");
         addPage("arcane_spirit_a", "The arcane spirit is arcana in it's purest form. Raw arcana is often needed to fully utilize potential found within other arcana, it has little power alone but can greatly amplify other magic.");
@@ -205,12 +205,12 @@ public class MalumLang extends LanguageProvider
 
         addDescription("ether", "The Sunset can't Compare");
         addHeadline("ether", "Ether");
-        addPage("ether_a", "Nowadays, most magics offer you a unique source of light for all purpose use, spirit arcana is no different. Ether, known to some as Nitor is a magical flame that burns and shines bright forever. It can be placed on a torch or an arcane rock brazier which can be placed or hung.");
+        addPage("ether_a", "Nowadays, you can find means of producing light with most magics. Spirit Arcana is no different. Ether, known to some as Nitor is a magical flame that burns and shines bright forever. It can lit on a torch or in an arcane stone brazier, which can be placed or hung.");
         addPage("ether_b", "Additionally, the ether flame can be dyed into practically any color. Simply combine the ether item with any combination of dyes and it's color will be altered! For technical reasons monochromatic dyes may yield possibly undesirable results without other dyes mixed in.");
 
         addHeadline("iridescent_ether", "Iridescent Ether");
-        addPage("iridescent_ether_a", "In contrast to most other magical lights aside from pleasing the eye ether has a double flame colored variant, iridescent ether. This pristine form of ether allows you to dye the item once more to alter the ending color of the burn. Much like normal ether it can be placed on a brazier and a torch");
-        addPage("iridescent_ether_b", "Getting just the right coloring for your light may be a bit tricky however. You cannot alter the original color of ether once it's transformed into it's iridescent variant, applying any dye at this stage will only change the second color.");
+        addPage("iridescent_ether_a", "Unlike most magical light sources, the magical flames can hold a secondary color, found in iridescent ether. This pristine form of light allows you to tint the edge of an ether's flame. And just like normal ether, it can be placed on a brazier and a torch");
+        addPage("iridescent_ether_b", "Getting just the right color for your light requires some planning. You cannot alter the ether's sole color once it's transformed into its iridescent form, as applying any dye at this stage will only tint the edge of the flames.");
 
         addDescription("spirit_fabric", "Wicked Weaves");
         addHeadline("spirit_fabric", "Spirit Fabric");
@@ -224,12 +224,12 @@ public class MalumLang extends LanguageProvider
 
         addDescription("spirit_focusing", "Focusing with Spirits");
         addHeadline("spirit_focusing", "Spirit Focusing");
-        addPage("spirit_focusing_a", "The spirit crucible is a wondrous device shaped specifically for an alchemical process named spirit focusing. It revolves around a single key catalyst and it's interaction with spirit arcana. One of the more common catalysts found in this magical process is an alchemical impetus.");
-        addPage("spirit_focusing_b", "An impetus is a clay-made reagent specifically created for spirit focusing, it's very easy to model it's clay based material into new resources. By utilizing spirits in the crucible you may shape some of the impetus' mass into something new at the cost of a slight toll on the clay artifact.");
+        addPage("spirit_focusing_a", "The spirit crucible is a wondrous device shaped specifically for an alchemical process called Spirit Focusing. It revolves around the use of a catalyst, and its interaction with Spirit Arcana. The most common catalyst in this process is referred to as an Alchemical Impetus.");
+        addPage("spirit_focusing_b", "An impetus is a clay-made reagent specifically created for Spirit Focusing, it's very easy to model it's clay based material into new resources. By utilizing spirits in the crucible you may shape some of the impetus' mass into something new at the cost of a slight toll on the clay artifact.");
 
         addDescription("working_with_ashes", "Spirits to ashes, ashes to soot");
         addHeadline("working_with_ashes", "Working with Ashes");
-        addPage("working_with_ashes", "With primitive spirit focusing you may successfully create simple powders often needed in all sorts of studies of arcana.");
+        addPage("working_with_ashes", "With primitive Spirit Focusing you may successfully create simple powders often needed in all sorts of studies of arcana.");
 
         addDescription("crucible_acceleration", "Heating Up");
         addHeadline("crucible_acceleration", "Crucible Acceleration");
@@ -239,17 +239,17 @@ public class MalumLang extends LanguageProvider
 
         addDescription("metallurgic_magic", "Focusing into hardware");
         addHeadline("metallurgic_magic", "Metallurgic Magic");
-        addPage("metallurgic_magic_a", "With some clever tricks you may imbue your impetus with a metallic shell, when fed spirits it'll sprout a metallic node of your desired metal. Due to the more rigid material of the impetus, more durability is lost in the process.");
+        addPage("metallurgic_magic_a", "With some clever tricks you may imbue your impetus with a metallic shell. Spirits fed to the metallic impetus will be converted into nodes of the same metal. Due to the more rigid material of the impetus, more durability is lost in the process, and repair will be more frequently rerquired.");
         addPage("metallurgic_magic_b", "It is speculated that these catalysts were previously used as some sort of ashen aspects in an infernal arcana focused alchemical exchange system. It might be possible to replicate the process by studying the history of infernal arcana.");
 
         addDescription("ceaseless_impetus", "Rebirth");
         addHeadline("ceaseless_impetus", "Ceaseless Impetus");
-        addPage("ceaseless_impetus_a", "The totem of undying is a very interesting artifact sought out by many, it seems to be an effigy for some sort of greater god, an opposition to an undocumented evil it seems. By utilizing advanced sacred spirit arcana we can feed into this wonder and alter it's effect.");
+        addPage("ceaseless_impetus_a", "The totem of undying is a very interesting artifact sought out by many, it seems to be an effigy for some sort of greater god, an opposition to an undocumented evil it seems. By utilizing advanced sacred Spirit Arcana we can feed into this wonder and alter it's effect.");
         addPage("ceaseless_impetus_b", "In addition to a more sturdy design made out of hallowed gold, the ceaseless impetus allows for two uses before needing repair. This however results in the phoenix blessing effect being generally weaker, needing activations in quick succession to match it's former glory.");
 
         addDescription("spirit_metallurgy", "Arcane metals");
         addHeadline("hallowed_gold", "Hallowed Gold");
-        addPage("hallowed_gold_a", "Gold is very often used as a basis for various magics, this is also the case with spirit arcana. Infusing arcane and sacred arcana into a gold ingot will imbue it with magic and yield a much more desirable magic metal. A few additional reagents are also needed for this process.");
+        addPage("hallowed_gold_a", "Gold is very often used as a basis for various magics, this is also the case with Spirit Arcana. Infusing arcane and sacred arcana into a gold ingot will imbue it with magic and yield a much more desirable magic metal. A few additional reagents are also needed for this process.");
         addPage("hallowed_gold_b", "While not too useful in evil schemes or crafting powerful gear, hallowed gold is a metal perfect for spirit manipulation and transfer.");
         addHeadline("spirit_jar", "Spirit Jar");
         addPage("spirit_jar", "The spirit jar is a simple craft. It's a placeable jar block that can store a really really large amount of a single spirit, very convenient to have next to a spirit altar. You can input and output spirits by right clicking, sneaking will take out an entire stack.");
@@ -291,7 +291,7 @@ public class MalumLang extends LanguageProvider
 
         addDescription("ring_of_wicked_intent", "Arcane Rage");
         addHeadline("ring_of_wicked_intent", "Ring of Wicked Intent");
-        addPage("ring_of_wicked_intent", "The wicked ring is a simple yet practical trinket that will greatly assist you in combat. Taking note from the powerful wither army the ring will react to nearby spirit arcana and reward you with strength and rage when collecting spirits.");
+        addPage("ring_of_wicked_intent", "The wicked ring is a simple yet practical trinket that will greatly assist you in combat. Taking note from the powerful wither army the ring will react to nearby Spirit Arcana and reward you with strength and rage when collecting spirits.");
 
         addDescription("necklace_of_the_mystic_mirror", "Reflection");
         addHeadline("necklace_of_the_mystic_mirror", "Mystic Mirror Necklace");
@@ -311,13 +311,13 @@ public class MalumLang extends LanguageProvider
 
         addDescription("altar_acceleration", "Obelisks");
         addHeadline("runewood_obelisk", "Runewood Obelisk");
-        addPage("runewood_obelisk", "If you've ever wished for a means of speeding up your spirit infusion, the runewood obelisk is perfect for your needs. It functions as a booster pillar of sorts, the spirit arcana imbued within allow it to accelerate the infusion process.");
+        addPage("runewood_obelisk", "If you've ever wished for a means of speeding up your spirit infusion, the runewood obelisk is perfect for your needs. It functions as a booster pillar of sorts, the Spirit Arcana imbued within allow it to accelerate the infusion process.");
         addHeadline("brilliant_obelisk", "Brilliant Obelisk");
         addPage("brilliant_obelisk", "If we replace the spirit resonator with a set of brilliance, the result instead becomes a brilliant obelisk. Each one of these boosts the power of a nearby enchantment table, reaching full efficiency with just three obelisks.");
 
         addDescription("totem_magic", "Spirit Rites");
         addHeadline("totem_magic", "Totem Magic");
-        addPage("totem_magic_a", "The primary use of spirits tends to be selfish power, however spirit arcana isn't limited to just greed. By engraving spirits onto runewood above a totem base in a specific order you may create a spirit rite, a dark ritual that mangles with the nearby area.");
+        addPage("totem_magic_a", "The primary use of spirits tends to be selfish power, however Spirit Arcana isn't limited to just greed. By engraving spirits onto runewood above a totem base in a specific order you may create a spirit rite, a dark ritual that mangles with the nearby area.");
         addPage("totem_magic_b", "Each spirit rite starts at the totem base, above which you'll need to stack runewood logs. Once that is done, engrave the needed spirits onto the wood by simply right clicking it. Spirits can be scraped off by using an axe. When you lay out your rite correctly, activate the totem base.");
         addPage("totem_magic_c", "Individual spirit rites may not be within the range of another rite, however if the rite has a different spirit combination it may be brought closer.");
 
@@ -328,7 +328,7 @@ public class MalumLang extends LanguageProvider
         addHeadline("totem_corruption", "Totem Corruption");
         addPage("totem_corruption_a", "Raw arcana is often used to amplify other magics, it is usually used on within a spirit rite as a starting point of sorts. Now what if, we execute a rite made out of entirely arcane spirit, where would the built up magics go? The answer is corruption.");
         addPage("totem_corruption_b", "The uncontrolled and volatile result of arcane spirit channels all the built up power and spontaneously corrupts the totem, twisting the simple and organized runewood into a much grimmer new purple look. Any spirit rite performed on a soulwood totem will yield different effects.");
-        addPage("arcane_rite", "The arcane rite yields the volatile result of uncontrolled spirit arcana, quickly engulfing the totem.");
+        addPage("arcane_rite", "The arcane rite yields the volatile result of uncontrolled Spirit Arcana, quickly engulfing the totem.");
         addPage("corrupted_arcane_rite", "With the totem pole already altered, the volatile arcane energies distribute into the area beneath instead.");
         addPage("totem_corruption_c", "You may also craft a corrupted totem base directly by changing the ingredients.");
 
