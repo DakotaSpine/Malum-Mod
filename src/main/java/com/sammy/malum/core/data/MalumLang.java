@@ -116,7 +116,7 @@ public class MalumLang extends LanguageProvider
         addPage("introduction_a", "Within this world, every living body has a soul. The body is a physical vessel that the soul occupies. The soul is one's consciousness and what animates the body. Both represent who you are, one physically, the other magically.");
         addPage("introduction_b", "The encyclopedia arcana is a book that documents all that is known about arcane presence within this world. It focuses on a rather wicked form of arcane arts known as soul magic. It is a very cruel, inhumane and generally frowned upon study of arcana.");
         addPage("introduction_c", "In order to properly harness the unspoken power of soul magics, you'll have to the very center of it. At the very core of every soul rests untapped potential in form of what's known as a spirit - a fragment of potential.");
-        addPage("introduction_d", "The magical presence of a soul derives almost entirely from the spirits found within it. They may be dormant, but they are there. Each different soul is one and only, made up of different quantities of different spirits.");
+        addPage("introduction_d", "The magical presence of souls derives almost entirely from the spirits found within it. They may be dormant, but they are there. Each different soul is one and only, made up of different quantities of different spirits.");
 
         addDescription("spirit_magics", "Spirit Splinters");
         addHeadline("spirit_magics", "Spirit Basics");
